@@ -1,0 +1,115 @@
+  :root {
+  --main-bg-color: black;
+  --main-color-light: white;
+  }
+ 
+  .navbar {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    background-color: var(--main-bg-color);
+    height: 14%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3.8rem ;
+  }
+
+  .logo {
+    margin: 0.5rem 0;
+  }
+
+  ul, nav {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+
+  li {
+    margin: 0 1rem;
+  }
+  
+  a, .separator {
+    color: var(--main-color-light);
+    text-decoration: none;
+  }
+
+  svg {
+    height: 5rem;
+    width: 100% ;
+  }
+
+  .hero-wrapper {
+    height: 93vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../Images/BannerImage1.svg);
+  }
+
+  .banner-header {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    text-indent: -3.3em;
+    font-size: 8.5rem;
+    margin: 12% 0px 1rem;
+  }
+
+  .banner-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    margin-left: -1.6rem;
+  }
+
+  .banner-button {
+    font-family: 'Montserrat', sans-serif;
+    height: 5rem;
+    width: 10%;
+    font-size: 1.1rem;
+    border-radius: 800px;
+    color: var(--main-color-light);
+    background-color: var(--main-bg-color);
+    margin-top: 3rem;
+    border: none;
+  }
+
+  .footer-wrapper {
+    font-family: 'Montserrat', sans-serif;
+    height: 40rem;
+    width: 100%;
+    background-color: var(--main-bg-color);
+    color: white;
+  }
+
+  .footer-links, .app-links-wrapper, .legal-links { 
+    display: flex;
+  }
+
+  .footer-links {
+    padding: 4rem 6rem;
+    justify-content: space-between;
+  }
+
+  .legal-links {
+    padding: 0 6rem;
+  }
+
+  .footer-list {
+    display: flex;
+    flex-direction: column;
+    padding: 0 3.4rem;
+    line-height: 1.9;
+    text-align: left;
+  }
+
+  .footer-list p { 
+    color: #919496;
+    font-weight: 900;
+    font-size: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .footer-logo {
+    height: 7rem;
+    width: 7rem;
+  }
